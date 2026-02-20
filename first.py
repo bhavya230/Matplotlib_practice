@@ -23,5 +23,11 @@ plt.scatter(x,y,c="g")
 plt.xlabel('x axis') # lael for x axis 
 plt.ylabel('y axis') # label for y axis
 plt.title('Graph in 2D') # gives title to graph 
-plt.show() # show the graph
 plt.savefig("Test.png") # to save the image directly 
+plt.show() # show the graph
+
+# plt plot 
+y = x*x
+
+plt.plot(x,y,"ro--")
+plt.show()
