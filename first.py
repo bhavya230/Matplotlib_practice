@@ -19,10 +19,11 @@ b=np.arange(50,60)
 
 # plt scatter plot
 
-plt.scatter(x,y,c="g")
+plt.scatter(x,y,c="g",label="data points")
 plt.xlabel('x axis') # lael for x axis 
 plt.ylabel('y axis') # label for y axis
-plt.title('Graph in 2D') # gives title to graph 
+plt.title('Graph in 2D') # gives title to graph
+plt.legend() 
 plt.savefig("Test.png") # to save the image directly 
 plt.show() # show the graph
 
