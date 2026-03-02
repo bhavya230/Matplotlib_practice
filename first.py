@@ -27,8 +27,16 @@ plt.legend()
 plt.savefig("Test.png") # to save the image directly 
 plt.show() # show the graph
 
-# plt plot 
-y = x*x
+# plt plot -- line graph
+x1=np.arange(1,11)
+y1=np.arange(11,21)
+y2=np.arange(21,31)
 
-plt.plot(x,y,"ro--")
+plt.plot(x1,y1,marker="o",color="red",linestyle="--",markerfacecolor="red",label=" red data")
+plt.plot(x1,y2,marker="*",color="green",linestyle="-",markerfacecolor="green",label=" green data")
+plt.legend()
+plt.grid(True)
+plt.xlabel("x axis")
+plt.ylabel("y label")
+plt.title("Multiplt Line Graph")
 plt.show()
