@@ -40,3 +40,19 @@ plt.xlabel("x axis")
 plt.ylabel("y label")
 plt.title("Multiplt Line Graph")
 plt.show()
+
+# creating subplots
+plt.subplot(1,2,1)
+plt.plot(x1,y1)
+plt.xlabel("x axis")
+plt.ylabel(" y axix")
+plt.title("line graph")
+
+plt.subplot(1,2,2)
+plt.bar(x1,y2)
+plt.xlabel("x axis")
+plt.ylabel("y axis")
+plt.title("bar graph")
+
+plt.tight_layout()
+plt.show()
