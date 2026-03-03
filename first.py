@@ -66,3 +66,19 @@ plt.plot(x,y)
 plt.title("Sine Graph")
 plt.savefig("Sine.png")
 plt.show()
+
+# sine cosine graph on subplots
+x=np.arange(0, 5*np.pi,0.1)
+y_sin=np.sin(x)
+y_cos=np.cos(x)
+
+plt.subplot(2,1,1)
+plt.title("sine graph")
+plt.plot(x,y_sin,color="red")
+
+plt.subplot(2,1,2)
+plt.title(" cosine graph")
+plt.plot(x,y_cos,color="blue")
+
+plt.tight_layout()
+plt.show()
