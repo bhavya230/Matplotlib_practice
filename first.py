@@ -81,4 +81,5 @@ plt.title(" cosine graph")
 plt.plot(x,y_cos,color="blue")
 
 plt.tight_layout()
+plt.savefig("SineCosine.png")
 plt.show()
