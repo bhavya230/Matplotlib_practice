@@ -58,3 +58,11 @@ plt.title("bar graph")
 plt.tight_layout()
 plt.savefig("Subplot.png")
 plt.show()
+
+# SINE GRAPH
+x=np.arange(0,4*np.pi,0.1)
+y=np.sin(x)
+plt.plot(x,y)
+plt.title("Sine Graph")
+
+plt.show()
