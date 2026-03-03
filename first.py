@@ -39,6 +39,7 @@ plt.grid(True)
 plt.xlabel("x axis")
 plt.ylabel("y label")
 plt.title("Multiplt Line Graph")
+plt.savefig("LineGraph.png")
 plt.show()
 
 # creating subplots
@@ -55,4 +56,5 @@ plt.ylabel("y axis")
 plt.title("bar graph")
 
 plt.tight_layout()
+plt.savefig("Subplot.png")
 plt.show()
