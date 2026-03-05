@@ -102,3 +102,10 @@ plt.hist(a)
 plt.title("histogram")
 plt.savefig("histogram.png")
 plt.show()
+
+# barplot
+data=[np.random.normal(0,std,100) for std in range(1,4)]
+
+plt.boxplot(data,vert=True,patch_artist=True)
+plt.savefig("boxplot.png")
+plt.show()
