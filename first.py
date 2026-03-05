@@ -83,3 +83,15 @@ plt.plot(x,y_cos,color="blue")
 plt.tight_layout()
 plt.savefig("SineCosine.png")
 plt.show()
+
+#Bar plot
+subjects=["physics","chemistry","maths","english","computer science"]
+marks=[83,95,95,95,89]
+
+plt.bar(subjects,marks,color="green",width=0.5,align="center")
+plt.xlabel("subjects")
+plt.ylabel("marks")
+plt.title("bar graph")
+plt.grid(True)
+plt.savefig("bar.png")
+plt.show()
