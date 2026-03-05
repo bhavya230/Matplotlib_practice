@@ -95,3 +95,10 @@ plt.title("bar graph")
 plt.grid(True)
 plt.savefig("bar.png")
 plt.show()
+
+# histograms
+a=np.array([22,87,5,43,56,73,55,54,11,20,51,5,79,31,27])
+plt.hist(a)
+plt.title("histogram")
+plt.savefig("histogram.png")
+plt.show()
