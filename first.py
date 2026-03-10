@@ -103,9 +103,20 @@ plt.title("histogram")
 plt.savefig("histogram.png")
 plt.show()
 
-# barplot
+# boxplot
 data=[np.random.normal(0,std,100) for std in range(1,4)]
 
 plt.boxplot(data,vert=True,patch_artist=True)
 plt.savefig("boxplot.png")
+plt.show()
+
+# pie charts 
+values=[215,130,245,210]
+lables=['python','c++','ruby','java']
+
+plt.pie(values,labels=lables,explode=[0.2,0.0,0.0,0.0],autopct='%1.1f%%',shadow=True)
+plt.legend()
+plt.title("pie chart")
+plt.axis('equal')
+plt.savefig('pieChart.png')
 plt.show()
